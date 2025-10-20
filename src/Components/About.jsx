@@ -6,6 +6,7 @@ export default function Accordion() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
+    <br />
       <h2>Almaty, Kazakhstan</h2>
       <Panel
         title="About"

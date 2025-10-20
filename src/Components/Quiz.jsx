@@ -16,24 +16,29 @@ export default function Form() {
 
   return (
     <>
-      <h2 className="text-primary mb-3">Let’s check you in </h2>
-      <label><br /><br />
+    <h1>Welcome to My State Management App </h1>
+    <br /><br />
+    <div className='checkIn'>
+      <h2>Let’s check you in </h2>
+      <label>
         First name:{' '}
         <input
           value={firstName}
           onChange={handleFirstNameChange}
-        />
+        /> 
       </label>
-      <label><br /> <br />
-        Last name:{' '}
-        <input
+      <label><br />
+       <br /> 
+        Last name:{' '} 
+        <input 
           value={lastName}
           onChange={handleLastNameChange}
         />
-      </label>
+      </label><br /> <br /> 
       <p>
         Your ticket will be issued to: <b>{fullName}</b>
       </p>
+      </div>
     </>
   );
 }
