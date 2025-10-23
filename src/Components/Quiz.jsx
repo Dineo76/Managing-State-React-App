@@ -16,8 +16,6 @@ export default function Form() {
 
   return (
     <>
-    <h1>Welcome to My State Management App </h1>
-    <br /><br />
     <div className='checkIn'>
       <h2>Let’s check you in </h2>
       <label>
@@ -39,6 +37,7 @@ export default function Form() {
         Your ticket will be issued to: <b>{fullName}</b>
       </p>
       </div>
+   
     </>
   );
 }

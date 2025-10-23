@@ -32,3 +32,12 @@ h2{
 p{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.homepg{
+  background-color: aliceblue;
+  padding: 220px;
+  border-radius: 5%;
+  border-style: double;
+  border-color: rgb(135, 135, 192);
+box-shadow: 10px 10px 10px black;
+}
